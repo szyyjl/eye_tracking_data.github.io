@@ -1,0 +1,90 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: "楷体", "KaiTi", sans-serif;
+    font-weight: bold;
+}
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 1800px;
+    display: inline-block;
+}
+.image-container img{
+    width: 100%;
+    height: 100%;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black; /* 文字颜色 */
+    font-size: 24px; /* 文字大小 */
+    text-align: center;
+}
+.left-text {
+    position: absolute;
+    bottom: 300px; /* 距离底部的距离 */
+    left: 300px; /* 距离左边的距离 */
+}
+
+.left-text a {
+    cursor: pointer;
+    color: black; /* 链接文字颜色 */
+    text-decoration: none; /* 去掉下划线 */
+    font-size: 20px; /* 增加字体大小 */
+}
+.right-text {
+    position: absolute;
+    bottom: 300px; /* 距离底部的距离 */
+    right: 300px; /* 距离右边的距离 */
+}
+.right-text a {
+    cursor: pointer;
+    color: black; /* 链接文字颜色 */
+    text-decoration: none; /* 去掉下划线 */
+    font-size: 20px; /* 增加字体大小 */
+}
+
+.Capture{
+    position: absolute;
+    top: 500px;
+    width: 100%;
+    height: 500px;
+}
+.Capture h2{
+    text-align: center;
+    font-size: 32px;
+}
+.Capture-text{
+    display: flex;
+
+
+}
+.Capture-main{
+    display: flex;
+    height: 800px;
+    width: 700px;
+}
+.Capture-main li{
+    list-style-type: none;
+    font-size: 20px; /* 增加字体大小 */
+    color: black; /* 链接文字颜色 */
+}
+.Experimental{
+    position: absolute;
+    width: 100%;
+    top: 1000px;
+    /*left: 200px;*/
+}
+.Experimental h2{
+    text-align: center;
+    font-size: 32px;
+}
+.Experimental img{
+    width: 100%;
+    height: 600px;
+}
+
